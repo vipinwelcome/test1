@@ -1,3 +1,5 @@
-const array1 = ['Rahul','Vipin'];
+let array1 = ['Rahul','Vipin'];
 const array2 = new Array("Bittu", "Arvind");
-console.log(array1[1], array2);
+console.log(array1);
+array1[2]="Satish";
+console.log(array1.length);
