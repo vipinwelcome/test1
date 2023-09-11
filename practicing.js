@@ -4,3 +4,4 @@ console.log(array1);
 array1[2]="Satish";
 console.log(array1.length);
 console.log(array1[1]);
+console.log(array2[0]);
