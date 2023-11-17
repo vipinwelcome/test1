@@ -1,7 +1,11 @@
 let array1 = ['Rahul','Vipin'];
-const array2 = new Array("Bittu", "Arvind");
+let array2 = [["Bittu",24], ["Arvind",42]];
 console.log(array1);
 array1[2]="Satish";
 console.log(array1.length);
 console.log(array1);
-console.log(array2[0]);
+console.log(array2.length);
+array2.splice(1,0,["Piyush",36]);
+console.log(array2);
+array2.splice(2,1);
+console.log(array2);
