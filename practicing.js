@@ -1,11 +1,5 @@
-let array1 = ['Rahul','Vipin'];
-let array2 = [["Bittu",24], ["Arvind",42]];
-console.log(array1);
-array1[2]="Satish";
-console.log(array1.length);
-console.log(array1);
-console.log(array2.length);
-array2.splice(1,0,["Piyush",36]);
-console.log(array2);
-array2.splice(2,1);
-console.log(array2);
+let student={
+    name:'Vipin',
+    age:25,
+}
+console.log(student['name']);
