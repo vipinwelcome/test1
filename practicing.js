@@ -1,8 +1,4 @@
-let student={
-    name:'Vipin',
-    age:25,
-    bittu:function(){
-        console.log("Motu and Patlu")
-    }
-}
-student.bittu();
+const letters = new Set(["a","b","c"]);
+letters.forEach(function(value){
+    console.log(value)
+})
