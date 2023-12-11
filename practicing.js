@@ -1,3 +1,5 @@
-const Data={name:"Vipin", age:25};
-const object=JSON.stringify(Data);
-console.log(object); 
+const number = 4;
+if(number>=1) {
+    console.log("Pappu Passed");
+}
+console.log("Maza aa gaya");
