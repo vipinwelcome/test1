@@ -11,4 +11,4 @@ switch(a){
     case 5:a="Dosa";
     break;
 }
-console.log(a);
+console.log(a); 
