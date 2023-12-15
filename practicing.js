@@ -8,7 +8,7 @@ switch(a){
     break;
     case 4:a="Sandwitch";
     break;
-    case 5:a="Dosa";
+    case 5:a="Dosi";
     break;
 }
 console.log(a); 
