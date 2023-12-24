@@ -1,6 +1,4 @@
-let i;
-let x=1;
-for(i=1; i<=9; i++){
-   x=x*i;
+let name="AbdulKalam";
+for(let k in name){
+    console.log(name.charAt(k));
 }
-console.log("The factorial of 9 is" +" "+x);
