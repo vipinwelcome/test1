@@ -1,4 +1,6 @@
-let name="AbdulKalam";
-for(let k in name){
-    console.log(name.charAt(k));
+let map=new Map();
+map.set('Name', 'Jack');
+map.set('age', '24');
+for(let chabi of map){
+    console.log(chabi);
 }
