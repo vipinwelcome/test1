@@ -1,3 +1,5 @@
-let result;
-result="4"-"2";
-console.log(result);
+let a="Vipin";
+let b="Welcome ${a}";
+console.log(b);
+let c=`Welcome ${a}`;
+console.log(c);
