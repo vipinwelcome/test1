@@ -1,10 +1,4 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: red;
-}
-[src*='downloadedimage.jpeg']{
-    height: 400px;
-}
-[src*="download2nd.jpeg"]{
-    height: 3500px;
-}
+    background-color: aqua;
+    color: hsla(hue, saturation, lightness, alpha);
+} 
