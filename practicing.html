@@ -5,17 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    p{
-      border: 3px solid black;
-      margin: 20px;
-    }
-  </style>
+  .grid {
+    display: grid;
+    border: 2px blue solid;
+    width: 400px;
+    height: 500px;
+    grid-template-columns: 100px 50% 200px;
+  }
+  
+  .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+  }
   <link rel="stylesheet" href="C:\My Computer\Vipin\Almabetter\git\ripositories\repositories\MyLearning\test1\style.css">
+   </style>
 </head>
 <body>
-  <p>Content 1</p>
-  <p>Content 2</p>
-  <p>Content 3</p>
-  <p>Content 4</p>
+  <div class="grid">
+    <div class="box a">A</div>
+    <div class="box b">B</div>
+    <div class="box c">C</div>
+    <div class="box d">D</div>
+    <div class="box e">E</div>
+    <div class="box f">F</div>
+    <div class="box f">G</div>
+  </div>
 </body>
 </html>
