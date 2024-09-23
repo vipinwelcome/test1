@@ -5,32 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-  .grid {
-    display: grid;
-    border: 2px blue solid;
-    width: 400px;
-    height: 500px;
-    grid-template-columns: 100px 50% 200px;
-  }
-  
-  .box {
-    background-color: beige;
-    color: black;
-    border-radius: 5px;
-    border: 2px dodgerblue solid;
-  }
-  <link rel="stylesheet" href="C:\My Computer\Vipin\Almabetter\git\ripositories\repositories\MyLearning\test1\style.css">
-   </style>
+    .container {
+  display: flex;
+}
+ 
+.side {
+  flex-grow: 10;
+  flex-basis: 50px;
+}
+ 
+.center {
+  flex-grow: 2;
+  flex-basis: 150px;
+}
+  </style>
 </head>
 <body>
-  <div class="grid">
-    <div class="box a">A</div>
-    <div class="box b">B</div>
-    <div class="box c">C</div>
-    <div class="box d">D</div>
-    <div class="box e">E</div>
-    <div class="box f">F</div>
-    <div class="box f">G</div>
+  <div class='container'>
+    <div class='side'>
+      <h1>Left side!</h1>
+    </div>
+    <div class='center'>
+      <h1>Center!</h1>
+    </div>
+    <div class='side'>
+      <h1>Right side!</h1>
+    </div>
   </div>
 </body>
 </html>
