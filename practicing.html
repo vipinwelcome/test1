@@ -6,47 +6,6 @@
   <title>Document</title>
 </head>
 <body>
- <p>My Website 1</p>
- <p id="myDiv1">My Website 2</p>
- <p id="myDiv2">My Website 3</p>
- <p>My Website 4</p>
-  <script src= https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js> </script>
-<script>
-  console.log($);
-</script>
-
-<script>
-  $(document).ready(function () {
-
-      //Click
-      $('#myDiv1').click(function (eventObj) {
-          alert('CLICKED!!');
-      });
-
-      //Mouse Enter
-      $('#myDiv1').mouseenter(function (data) {
-          $(this).css('background-color', 'green');
-          $(this).append('<span>Mouse Entered</span>');
-      });
-
-      //Mouse Leave
-      $('#myDiv1').mouseleave(function (data) {
-          $(this).css('background-color', 'red');
-          $('span').remove();
-      });
-
-      //Hover
-      $('#myDiv2').hover(function (data) {
-          $(this).css('background-color', 'green');
-          $(this).append('<span>Hovered</span>');
-      }, function (data) {
-          $(this).css('background-color', 'red');
-          $('span').remove();
-      });
-
-  });
-
-</script>
-<input type="text" placeholder="khaali">
+  
 </body>
 </html>
